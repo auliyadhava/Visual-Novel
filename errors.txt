@@ -1,0 +1,10 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 33: end of line expected.
+    show chelsea delighted.png
+                          ^
+
+Ren'Py Version: Ren'Py 8.2.3.24061702
+Wed Jul 31 22:40:37 2024

@@ -1,0 +1,30 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 33, in script
+    show chelsea delighted left
+Exception: Image 'chelsea delighted' does not accept attributes 'left'.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 33, in script
+    show chelsea delighted left
+  File "D:\Software\renpy-8.2.3-sdk\renpy\ast.py", line 1113, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "D:\Software\renpy-8.2.3-sdk\renpy\ast.py", line 1076, in show_imspec
+    renpy.config.show(name,
+  File "D:\Software\renpy-8.2.3-sdk\renpy\exports.py", line 739, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "D:\Software\renpy-8.2.3-sdk\renpy\display\image.py", line 421, in find_target
+    self.target = target._duplicate(a)
+  File "D:\Software\renpy-8.2.3-sdk\renpy\display\displayable.py", line 246, in _duplicate
+    args.extraneous()
+  File "D:\Software\renpy-8.2.3-sdk\renpy\display\displayable.py", line 109, in extraneous
+    raise Exception("Image '{}' does not accept attributes '{}'.".format(
+Exception: Image 'chelsea delighted' does not accept attributes 'left'.
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.3.24061702
+Cerita Kader Bangsa 1.0
+Wed Jul 31 22:41:22 2024
